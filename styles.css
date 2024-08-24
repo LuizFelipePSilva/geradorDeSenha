@@ -1,0 +1,40 @@
+body {
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.walp {
+  background: #2980b9;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.walp input {
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.walp p {
+  font-size: 1.9rem;
+}
+
+.walp span {
+  font-size: 0.9rem;
+} 
